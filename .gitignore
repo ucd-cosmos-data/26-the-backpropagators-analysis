@@ -37,3 +37,4 @@ venv/
 # Models
 **/models/*
 !**/models/.gitkeep
+!**/models/chloroplethmodels.ipynb

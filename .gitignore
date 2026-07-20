@@ -38,3 +38,8 @@ venv/
 **/models/*
 !**/models/.gitkeep
 !**/models/chloroplethmodels.ipynb
+
+# PBMC3k datasets are local-only. Keep the folder structure, but never commit data.
+PBMC3k/data/**
+!PBMC3k/data/**/
+!PBMC3k/data/**/.gitkeep

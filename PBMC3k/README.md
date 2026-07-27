@@ -151,3 +151,31 @@ first_five = pd.DataFrame.sparse.from_spmatrix(
 
 print(first_five)
 ```
+
+## 8. Explore every data format in Jupyter
+
+The BAM, BAI, and H5 files are complete binary data files, not archives.
+Do not attempt to extract them with Archive Utility. Use the exploration
+notebook to access the entire count matrix, browse BAM alignments by page or
+genomic region, inspect every HDF5 dataset, and open the Cell Ranger CSV files:
+
+```text
+notebooks/01_explore_all_pbmc3k_files.ipynb
+```
+
+Install the notebook dependencies and start Jupyter from this `PBMC3k`
+directory:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements-pbmc3k.txt
+python -m jupyter lab
+```
+
+Then open `notebooks/01_explore_all_pbmc3k_files.ipynb` in the Jupyter file
+browser and run its cells from top to bottom.
+
+The notebook paginates large binary files deliberately. Attempting to display
+all records from a 16 GB BAM in a single output cell can exhaust memory or
+freeze the browser; pagination still provides access to every record.

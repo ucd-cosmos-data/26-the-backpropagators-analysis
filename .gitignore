@@ -28,6 +28,14 @@ venv/
 **/data/processed/*
 !**/data/processed/.gitkeep
 
+# PBMC3k downloads are large and must remain local.
+PBMC3k/data/raw/*
+!PBMC3k/data/raw/.gitkeep
+PBMC3k/data/interim/*
+!PBMC3k/data/interim/.gitkeep
+PBMC3k/data/processed/*
+!PBMC3k/data/processed/.gitkeep
+
 
 
 # Results

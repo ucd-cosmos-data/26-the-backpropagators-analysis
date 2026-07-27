@@ -1,0 +1,8 @@
+jupyterlab>=4.0
+h5py>=3.10
+numpy>=1.26,<2.1
+numba==0.60.0
+pandas>=2.1
+pysam>=0.22
+scanpy>=1.10
+scipy>=1.11

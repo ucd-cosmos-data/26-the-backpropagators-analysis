@@ -1,0 +1,10 @@
+cluster,likely_cell_type,cell_count,most_definitive_marker_genes,confidence
+0,Cytotoxic CD8 T cells,273,"CD3D; CD3E; CD8A; CD8B; CCL5; GZMK",High
+1,B cells,348,"MS4A1; CD79A; CD79B; CD74; HLA-DRA; TCL1A",High
+2,IL7R-positive memory/helper T cells,602,"CD3D; CD3E; IL7R; LTB; GIMAP7; AQP3",High
+3,Classical monocytes,502,"LYZ; S100A8; S100A9; FCN1; LST1; CTSS",High
+4,CD16-positive non-classical monocytes,171,"FCGR3A; LST1; FCER1G; IFITM3; SERPINA1; CFD",High
+5,NK cells,153,"GNLY; NKG7; GZMB; PRF1; FGFBP2; FCGR3A",High
+6,Activated or transitional T cells,128,"CD3D; CD3E; CCL5; GZMK; IL32; LTB",Moderate
+7,Naive or resting T cells,450,"CCR7; IL7R; CD3D; CD3E; LTB",Moderate
+8,Platelets,11,"PPBP; PF4; GNG11; SPARC; RGS18; SDPR",High

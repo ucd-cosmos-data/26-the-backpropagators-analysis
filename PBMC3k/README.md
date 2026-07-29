@@ -1,7 +1,15 @@
-i# PBMC3k
+# PBMC3k
 
 This folder contains the unmodified Cell Ranger 1.1.0 outputs for the **3k
 PBMCs from a Healthy Donor** dataset.
+
+The finalized presentation assets, approved captions, source values, and
+limitations are documented in [`PRESENTATION_HANDOFF.md`](PRESENTATION_HANDOFF.md).
+Regenerate the non-classification presentation figures with:
+
+```bash
+PBMC3k/.venv/bin/python PBMC3k/scripts/export_presentation_figures.py
+```
 
 ---
 

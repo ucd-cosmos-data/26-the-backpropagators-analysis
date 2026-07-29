@@ -1,0 +1,49 @@
+stage,metric,value,source
+preprocessing,starting_cells,2700,02_qc_preprocessing.ipynb output
+preprocessing,retained_cells,2638,phase1 .h5ad
+preprocessing,removed_cells,62,derived
+preprocessing,starting_genes,32738,02_qc_preprocessing.ipynb output
+preprocessing,genes_after_detection_filter,13656,phase1 .h5ad raw
+preprocessing,selected_genes,2000,phase1 .h5ad
+clustering,pca_components,10,03_eda_clustering.ipynb
+clustering,nearest_neighbors,15,phase2 .h5ad metadata
+clustering,leiden_resolution,0.5,phase2 .h5ad metadata
+clustering,leiden_clusters,9,phase2 .h5ad
+clustering,kmeans_leiden_ari,0.2055353072722548,phase2 .h5ad metadata
+annotation,reviewed_cell_types,9,phase3 .h5ad
+annotation,high_confidence_clusters,7,phase3 .h5ad
+annotation,moderate_confidence_clusters,2,phase3 .h5ad
+annotation,cells_IL7R+ memory/helper T cells,602,phase3 .h5ad
+annotation,cells_Classical monocytes,502,phase3 .h5ad
+annotation,cells_Naive/resting T cells,450,phase3 .h5ad
+annotation,cells_B cells,348,phase3 .h5ad
+annotation,cells_Cytotoxic CD8 T cells,273,phase3 .h5ad
+annotation,cells_CD16+ non-classical monocytes,171,phase3 .h5ad
+annotation,cells_NK cells,153,phase3 .h5ad
+annotation,cells_Activated/transitional T cells,128,phase3 .h5ad
+annotation,cells_Platelets,11,phase3 .h5ad
+classification,selected_model,XGBoost,model-comparison CSV rank 1
+classification,selected_validation_macro_f1,0.9276990753980232,model-comparison CSV
+classification,selected_test_accuracy,0.9015151515151516,model-comparison CSV
+classification,selected_test_macro_f1,0.8931053833352683,model-comparison CSV
+classification,logistic_test_accuracy,0.9318181818181818,model-comparison CSV
+classification,logistic_test_macro_f1,0.9339308103676648,model-comparison CSV
+classification,test_cells,264,best-model per-class CSV
+classification,test_support_Activated/transitional T cells,13,best-model per-class CSV
+classification,test_recall_Activated/transitional T cells,0.5384615384615384,best-model per-class CSV
+classification,test_support_B cells,35,best-model per-class CSV
+classification,test_recall_B cells,1.0,best-model per-class CSV
+classification,test_support_CD16+ non-classical monocytes,17,best-model per-class CSV
+classification,test_recall_CD16+ non-classical monocytes,1.0,best-model per-class CSV
+classification,test_support_Classical monocytes,50,best-model per-class CSV
+classification,test_recall_Classical monocytes,0.98,best-model per-class CSV
+classification,test_support_Cytotoxic CD8 T cells,28,best-model per-class CSV
+classification,test_recall_Cytotoxic CD8 T cells,0.8214285714285714,best-model per-class CSV
+classification,test_support_IL7R+ memory/helper T cells,60,best-model per-class CSV
+classification,test_recall_IL7R+ memory/helper T cells,0.9166666666666666,best-model per-class CSV
+classification,test_support_NK cells,15,best-model per-class CSV
+classification,test_recall_NK cells,0.9333333333333332,best-model per-class CSV
+classification,test_support_Naive/resting T cells,45,best-model per-class CSV
+classification,test_recall_Naive/resting T cells,0.8222222222222222,best-model per-class CSV
+classification,test_support_Platelets,1,best-model per-class CSV
+classification,test_recall_Platelets,1.0,best-model per-class CSV

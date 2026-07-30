@@ -1,0 +1,5 @@
+PBMC3k reviewed label,Activated/transitional T cells,Cytotoxic CD8 T cells,IL7R+ memory/helper T cells,Naive/resting T cells
+Activated/transitional T cells,-0.21423724,0.7482697,-0.9000337,-0.18715398
+Cytotoxic CD8 T cells,-0.5451787,0.9965307,-0.8002402,-0.44447464
+IL7R+ memory/helper T cells,0.2700411,-0.7317828,0.9660591,-0.014100921
+Naive/resting T cells,0.8955511,-0.7752268,0.42818582,0.1429334

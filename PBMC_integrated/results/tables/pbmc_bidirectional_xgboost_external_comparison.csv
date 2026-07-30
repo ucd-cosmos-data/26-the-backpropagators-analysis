@@ -1,0 +1,3 @@
+evaluation,training_cells,external_test_cells,shared_class_accuracy,shared_class_macro_f1,unseen_external_class,feature_schema
+PBMC3k → PBMC4k,2638,4131,0.6924578960214791,0.7158127521151938,Dendritic cells,Original PBMC3k model genes
+PBMC4k → PBMC3k,4131,2638,0.6924248191853826,0.6905633996230411,Platelets,PBMC3k/PBMC4k shared genes

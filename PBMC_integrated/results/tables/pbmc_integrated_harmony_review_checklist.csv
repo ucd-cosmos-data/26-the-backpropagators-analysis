@@ -1,0 +1,8 @@
+check,passed
+Dataset silhouette decreased,True
+Cross-dataset neighbor mixing increased,True
+Cell-type neighbor purity retained,True
+Cluster association with dataset decreased,True
+Normalized expression unchanged,True
+Rare populations separated at primary resolution 0.5,False
+Rare populations separated at sensitivity resolution 0.6,True

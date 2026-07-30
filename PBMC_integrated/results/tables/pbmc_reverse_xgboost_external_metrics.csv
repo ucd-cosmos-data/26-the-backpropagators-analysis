@@ -1,0 +1,15 @@
+,PBMC4k to PBMC3k external validation
+PBMC3k cells evaluated,2638.0
+shared-class PBMC3k cells,2627.0
+unseen-class PBMC3k cells,11.0
+all-cell forced-choice accuracy,0.6895375284306292
+shared-class accuracy,0.6924248191853826
+shared-class balanced accuracy,0.7260544761457887
+shared-class macro F1,0.6905633996230411
+shared-class weighted F1,0.7004830119152813
+shared-class MCC,0.68079478561836
+mean maximum probability,0.9158445600310088
+median maximum probability,0.9896434843540192
+low-confidence cells,59.0
+low-confidence percent,2.2365428354814254
+PBMC4k training CV macro F1,0.9422906291449126

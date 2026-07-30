@@ -1,0 +1,4 @@
+reviewed_cell_type,predicted_cell_type,cells,mean_max_probability,median_max_probability,low_confidence_cells,percent_within_reviewed_class
+Platelets,Activated/transitional T cells,4,0.3923484608530998,0.391655370593071,4,36.36363636363637
+Platelets,Classical monocytes,2,0.7378524988889694,0.7378524988889694,1,18.181818181818183
+Platelets,Cytotoxic CD8 T cells,5,0.3610115349292755,0.3223435878753662,5,45.45454545454545

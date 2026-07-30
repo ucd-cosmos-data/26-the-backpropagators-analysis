@@ -1,0 +1,9 @@
+dataset,original_cell_type,proposed_harmonized_cell_type,evidence
+PBMC3k,Activated/transitional T cells,Cytotoxic T cells,CCL5/GZMK cytotoxic-transitional markers; PBMC4k-model predictions split mainly between activated and cytotoxic
+PBMC3k,Cytotoxic CD8 T cells,Cytotoxic T cells,Strong CCL5/NKG7/CST7/CTSW cytotoxic program
+PBMC3k,IL7R+ memory/helper T cells,Non-cytotoxic T cells,Strong IL7R/LTB helper-memory program
+PBMC3k,Naive/resting T cells,Non-cytotoxic T cells,Naive/resting program; aligns with the large PBMC4k activation-state neighborhood
+PBMC4k,Activated/transitional T cells,Non-cytotoxic T cells,Immediate-early activation is a cell state; marker profile and Harmony neighborhood align mainly with non-cytotoxic PBMC3k T cells
+PBMC4k,Cytotoxic CD8 T cells,Cytotoxic T cells,Strong CCL5/NKG7/CST7/CTSW cytotoxic program
+PBMC4k,IL7R+ memory/helper T cells,Non-cytotoxic T cells,Strong IL7R/LTB helper-memory program
+PBMC4k,Naive/resting T cells,Non-cytotoxic T cells,Strong naive/resting program with low immediate-early activation

@@ -1,0 +1,21 @@
+stage,cell_type,n_cells,datasets_present,cross_dataset_neighbor_fraction
+Before Harmony,Activated/transitional T cells,1203,2,0.06029371016902189
+Before Harmony,B cells,940,2,0.125531914893617
+Before Harmony,CD16+ non-classical monocytes,277,2,0.020697954271961493
+Before Harmony,Classical monocytes,1425,2,0.010760233918128656
+Before Harmony,Cytotoxic CD8 T cells,861,2,0.12303523035230353
+Before Harmony,Dendritic cells,34,1,
+Before Harmony,IL7R+ memory/helper T cells,1042,2,0.08873960332693538
+Before Harmony,NK cells,334,2,0.08542914171656686
+Before Harmony,Naive/resting T cells,642,2,0.09646936656282451
+Before Harmony,Platelets,11,1,
+After Harmony,Activated/transitional T cells,1203,2,0.09864228318093654
+After Harmony,B cells,940,2,0.45872340425531916
+After Harmony,CD16+ non-classical monocytes,277,2,0.46401925391095067
+After Harmony,Classical monocytes,1425,2,0.44112280701754386
+After Harmony,Cytotoxic CD8 T cells,861,2,0.418815331010453
+After Harmony,Dendritic cells,34,1,
+After Harmony,IL7R+ memory/helper T cells,1042,2,0.45534229046705055
+After Harmony,NK cells,334,2,0.46706586826347307
+After Harmony,Naive/resting T cells,642,2,0.3166147455867082
+After Harmony,Platelets,11,1,

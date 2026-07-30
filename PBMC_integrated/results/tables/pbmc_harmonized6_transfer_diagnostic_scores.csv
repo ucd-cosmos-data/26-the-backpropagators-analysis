@@ -1,0 +1,3 @@
+experiment,fine_label_accuracy,harmonized6_accuracy,fine_label_macro_f1,harmonized6_macro_f1,harmonized6_balanced_accuracy,cells
+PBMC3k → PBMC4k,0.689773,0.9592384671711008,0.713685,0.9384058288427095,0.9196588610030089,4097
+PBMC4k → PBMC3k,0.692425,0.9272934906737723,0.690563,0.9177069477735279,0.911078475176153,2627

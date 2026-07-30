@@ -1,0 +1,5 @@
+rank_test_score,mean_test_score,std_test_score,params
+1,0.9422906291449126,0.003460710130114989,"{""classifier__learning_rate"": 0.05, ""classifier__max_depth"": 6}"
+2,0.9393001254022924,0.0053624476667332955,"{""classifier__learning_rate"": 0.1, ""classifier__max_depth"": 6}"
+3,0.9392554481021443,0.0060618269741590245,"{""classifier__learning_rate"": 0.1, ""classifier__max_depth"": 3}"
+4,0.9378977788507932,0.0053807707178028935,"{""classifier__learning_rate"": 0.05, ""classifier__max_depth"": 3}"

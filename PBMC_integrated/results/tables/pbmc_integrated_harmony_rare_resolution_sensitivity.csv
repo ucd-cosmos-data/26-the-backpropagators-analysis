@@ -1,0 +1,7 @@
+resolution,n_clusters,dendritic_dominant_cluster,platelet_dominant_cluster,rare_dominant_clusters_separated
+0.4,8,7,7,False
+0.5,9,8,8,False
+0.6,10,8,9,True
+0.7,11,9,10,True
+0.8,10,8,9,True
+1.0,11,9,10,True

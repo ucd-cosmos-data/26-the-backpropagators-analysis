@@ -1,0 +1,100 @@
+# Biological Interpretation Report — Cluster 4
+
+## Annotation assessment
+
+- **Proposed cell type:** CD16+ non-classical monocytes
+- **Support level:** partially supported
+- **Supporting genes:** FCGR3A, MS4A7, LST1, FCER1G, AIF1, SERPINA1, CDKN1C, CFD
+- **Supporting evidence:** DATASET OBSERVATION: the highest-ranked markers are FCGR3A, IFITM3, MS4A7, RP11-290F20.3, LST1, and the full representative set is enriched relative to cells outside this cluster. LITERATURE-SUPPORTED FACT: the supplied gene-level publications provide the module-specific contexts cited below (PMID:38898508, PMID:40325180, PMID:41448409, PMID:41126215, PMID:41361693, PMID:41803883, PMID:37802037, PMID:40225580). BIOLOGICAL INFERENCE: the combined pattern partially supports the proposed CD16+ non-classical monocytes annotation, while no single supplied marker is treated as unique.
+
+### Alternative interpretations
+
+- A broader myeloid or monocyte state remains plausible because several markers have shared myeloid contexts.
+- A related monocyte state without a resolved non-classical designation remains plausible.
+
+### Additional evidence needed
+
+- Protein-level measurements for the supplied representative genes.
+- A cluster-level classification prediction or probability.
+- Independent PBMC data showing that the complete supplied marker pattern is reproducible.
+- Functional measurements that directly test the inferred biological program.
+
+## Strongest dataset observations
+
+- **FCGR3A** — DATASET OBSERVATION: FCGR3A has rank 1, average log2 fold change 5.580072, adjusted p-value 2.019646e-83, expression prevalence 0.959064 inside versus 0.132550 outside the cluster, and marker score 92.240234. Importance: This is one of the strongest measured cluster observations by rank, enrichment, prevalence, statistical significance, and marker score.
+- **IFITM3** — DATASET OBSERVATION: IFITM3 has rank 2, average log2 fold change 4.839578, adjusted p-value 8.118456e-80, expression prevalence 0.982456 inside versus 0.173490 outside the cluster, and marker score 78.301083. Importance: This is one of the strongest measured cluster observations by rank, enrichment, prevalence, statistical significance, and marker score.
+- **MS4A7** — DATASET OBSERVATION: MS4A7 has rank 3, average log2 fold change 5.144174, adjusted p-value 1.499904e-58, expression prevalence 0.801170 inside versus 0.070531 outside the cluster, and marker score 75.170634. Importance: This is one of the strongest measured cluster observations by rank, enrichment, prevalence, statistical significance, and marker score.
+- **RP11-290F20.3** — DATASET OBSERVATION: RP11-290F20.3 has rank 4, average log2 fold change 4.994358, adjusted p-value 5.524284e-60, expression prevalence 0.818713 inside versus 0.066883 outside the cluster, and marker score 75.098231. Importance: This is one of the strongest measured cluster observations by rank, enrichment, prevalence, statistical significance, and marker score.
+- **LST1** — DATASET OBSERVATION: LST1 has rank 5, average log2 fold change 5.176203, adjusted p-value 5.832898e-92, expression prevalence 1.000000 inside versus 0.312120 outside the cluster, and marker score 71.212132. Importance: This is one of the strongest measured cluster observations by rank, enrichment, prevalence, statistical significance, and marker score.
+
+## Functional modules
+
+### CD16-associated monocyte identity module
+
+- **Genes:** FCGR3A, MS4A7, LST1, FCER1G, AIF1
+- **Confidence:** High — Confidence is High because the dataset enrichment is directly measured, whereas transfer of the supplied publication contexts to this cluster remains limited by context and by the evidence grades.
+- **Dataset support:** DATASET OBSERVATION: FCGR3A (pct_in=0.959064, pct_out=0.132550, avg_log2FC=5.580072, marker_score=92.240234), MS4A7 (pct_in=0.801170, pct_out=0.070531, avg_log2FC=5.144174, marker_score=75.170634), LST1 (pct_in=1.000000, pct_out=0.312120, avg_log2FC=5.176203, marker_score=71.212132), FCER1G (pct_in=1.000000, pct_out=0.313741, avg_log2FC=4.847110, marker_score=66.527424), AIF1 (pct_in=1.000000, pct_out=0.331171, avg_log2FC=4.882141, marker_score=65.306299). FCGR3A has the highest marker score within this module.
+- **Literature support:** LITERATURE-SUPPORTED FACT: The supplied references place these genes in monocyte, myeloid, or innate immune contexts; FCGR3A provides the direct CD16-associated dataset signal.
+- **Biological inference:** BIOLOGICAL INFERENCE: the coordinated enrichment of these supplied genes supports the cd16-associated monocyte identity module interpretation, but expression alone does not establish functional activity or a unique cell state.
+- **Verified references:** PMID:38898508, PMID:40325180, PMID:41448409, PMID:36054819, PMID:37202883, PMID:41758834, PMID:40320713, PMID:41030449, PMID:41173191, PMID:16362817, PMID:24816991, PMID:41488617, PMID:36944954, PMID:38478630, PMID:39954254
+### Broad innate and extracellular-context module
+
+- **Genes:** IFITM3, SERPINA1, CFD
+- **Confidence:** Moderate — Confidence is Moderate because the dataset enrichment is directly measured, whereas transfer of the supplied publication contexts to this cluster remains limited by context and by the evidence grades.
+- **Dataset support:** DATASET OBSERVATION: IFITM3 (pct_in=0.982456, pct_out=0.173490, avg_log2FC=4.839578, marker_score=78.301083), SERPINA1 (pct_in=0.953216, pct_out=0.197811, avg_log2FC=4.246182, marker_score=64.151771), CFD (pct_in=0.941520, pct_out=0.180786, avg_log2FC=4.121818, marker_score=62.712149). IFITM3 has the highest marker score within this module.
+- **Literature support:** LITERATURE-SUPPORTED FACT: The supplied references discuss these genes in publication-specific innate, inhibitory, or extracellular contexts without establishing a single combined mechanism.
+- **Biological inference:** BIOLOGICAL INFERENCE: the coordinated enrichment of these supplied genes supports the broad innate and extracellular-context module interpretation, but expression alone does not establish functional activity or a unique cell state.
+- **Verified references:** PMID:37802037, PMID:40225580, PMID:40340806, PMID:23890736, PMID:40611157, PMID:40684176, PMID:39737188, PMID:41270966, PMID:41558114
+### State-associated and unresolved marker module
+
+- **Genes:** CDKN1C, RP11-290F20.3
+- **Confidence:** Low — Confidence is Low because the dataset enrichment is directly measured, whereas transfer of the supplied publication contexts to this cluster remains limited by context and by the evidence grades.
+- **Dataset support:** DATASET OBSERVATION: CDKN1C (pct_in=0.502924, pct_out=0.008107, avg_log2FC=6.371625, marker_score=63.055758), RP11-290F20.3 (pct_in=0.818713, pct_out=0.066883, avg_log2FC=4.994358, marker_score=75.098231). RP11-290F20.3 has the highest marker score within this module.
+- **Literature support:** LITERATURE-SUPPORTED FACT: The supplied references provide publication-specific context for CDKN1C, while no verified reference is supplied for RP11-290F20.3.
+- **Biological inference:** BIOLOGICAL INFERENCE: the coordinated enrichment of these supplied genes supports the state-associated and unresolved marker module interpretation, but expression alone does not establish functional activity or a unique cell state.
+- **Verified references:** PMID:41126215, PMID:41361693, PMID:41803883
+
+## Coordinated biological program
+
+BIOLOGICAL INFERENCE: the modules jointly support the proposed CD16+ non-classical monocytes interpretation by combining the dominant identity-associated marker pattern with secondary state or contextual signals. The modules are coordinated at the level of co-enrichment in this cluster; the supplied evidence does not establish causal interaction among them.
+
+## Supported conclusions
+
+- DATASET OBSERVATION: all structured gene claims use only the ten supplied representative genes for this cluster.
+- DATASET OBSERVATION: the highest-ranked genes combine fold-change, prevalence, specificity, statistical significance, and marker-score evidence.
+- LITERATURE-SUPPORTED FACT: the cited references are the supplied verified gene-level references and are limited to their publication-specific contexts.
+- BIOLOGICAL INFERENCE: the combined marker pattern partially supports the proposed CD16+ non-classical monocytes annotation.
+
+## Reasonable inferences
+
+- BIOLOGICAL INFERENCE: co-enrichment of several annotation-associated markers is more informative than any single marker considered alone.
+- BIOLOGICAL INFERENCE: the highest-confidence module is the dominant biological program represented in the supplied marker set.
+- BIOLOGICAL INFERENCE: lower-confidence modules may describe context or state, but their functional contribution is unresolved.
+
+## Weak or uncertain interpretations
+
+- UNKNOWN OR UNCERTAIN: transcript enrichment does not establish protein abundance or functional activity.
+- UNKNOWN OR UNCERTAIN: publication findings from other biological settings may not transfer directly to this PBMC3K cluster.
+- UNKNOWN OR UNCERTAIN: the supplied evidence does not establish that every cell in the cluster has the same state.
+- The supplied evidence is insufficient to determine one uniquely defined functional state.
+
+## Contradictory evidence
+
+- No supplied result directly disproves the proposed annotation, but the literature summaries repeatedly state that gene contexts are not unique to one cell type.
+- Several supplied references are contextual, computational, review-based, or indirect, which limits mechanistic interpretation.
+
+## Limitations
+
+- Only the ten supplied representative genes are interpreted.
+- Held-out per-class model metrics are not a cluster-level probability.
+- Transcript measurements do not establish protein abundance, localization, or functional activity.
+- Evidence grades describe the selected publications and do not make every reported mechanism universal.
+- The supplied evidence is insufficient to determine causal relationships among the modules.
+
+## Overall confidence
+
+**Moderate** — Overall confidence is Moderate because the annotation assessment is partially supported, the marker statistics provide direct dataset support, and verified references provide gene-level context. Confidence is limited by non-unique gene contexts, absence of a cluster-level model probability, and lack of direct functional measurements.
+
+## Plain-language explanation
+
+The measured gene pattern is most consistent with CD16+ non-classical monocytes. The strongest genes are enriched within this cluster, and the supplied publications provide context for the grouped biological modules. Some genes can occur in other cell types or states, and gene expression alone does not show that the inferred functions occurred. The supplied evidence is insufficient to determine one uniquely defined functional state.

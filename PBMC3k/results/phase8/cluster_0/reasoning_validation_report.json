@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "checks": {
+    "schema_passed": true,
+    "genes_validated": true,
+    "citations_validated": true,
+    "safety_passed": true
+  },
+  "errors": {
+    "schema": [],
+    "genes": [],
+    "citations": [],
+    "safety": []
+  },
+  "warnings": []
+}

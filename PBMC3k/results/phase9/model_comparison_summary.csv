@@ -1,0 +1,19 @@
+model,phase5_rank,metric,value,uncertainty_std,selection_partition,is_phase5_selected_best
+XGBoost,1,Accuracy,0.928030303030303,,validation,True
+XGBoost,1,Macro precision,0.9517113391231398,,validation,True
+XGBoost,1,Macro recall,0.9146957103390506,,validation,True
+XGBoost,1,Macro F1,0.9276990753980232,,validation,True
+XGBoost,1,ROC-AUC,0.9947316785269628,,validation,True
+XGBoost,1,CV macro F1,0.8899845991780094,0.016869109130386,training CV,True
+Logistic Regression,2,Accuracy,0.9261363636363636,,validation,False
+Logistic Regression,2,Macro precision,0.9439530547067312,,validation,False
+Logistic Regression,2,Macro recall,0.8993207832013346,,validation,False
+Logistic Regression,2,Macro F1,0.9151844239012497,,validation,False
+Logistic Regression,2,ROC-AUC,0.9959837642509588,,validation,False
+Logistic Regression,2,CV macro F1,0.8967538084318184,0.0072971928447922,training CV,False
+Random Forest,8,Accuracy,0.9109848484848484,,validation,False
+Random Forest,8,Macro precision,0.947200663656546,,validation,False
+Random Forest,8,Macro recall,0.8629795296864471,,validation,False
+Random Forest,8,Macro F1,0.8693538216208763,,validation,False
+Random Forest,8,ROC-AUC,0.994821523958184,,validation,False
+Random Forest,8,CV macro F1,0.8258939416514064,0.0017851457137442,training CV,False

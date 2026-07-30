@@ -1,0 +1,10 @@
+cluster_id,proposed_cell_type,representative_gene_count,genes_with_evidence,genes_with_verified_references,genes_with_insufficient_evidence,verified_reference_count,phase7_status
+0,Cytotoxic CD8 T cells,10,10,10,0,30,COMPLETE
+1,B cells,10,10,10,0,29,COMPLETE
+2,IL7R+ memory/helper T cells,10,10,10,0,28,COMPLETE
+3,Classical monocytes,10,10,10,0,30,COMPLETE
+4,CD16+ non-classical monocytes,10,9,9,1,27,COMPLETE
+5,NK cells,10,10,10,0,31,COMPLETE
+6,Activated/transitional T cells,10,10,10,0,28,COMPLETE
+7,Naive/resting T cells,10,10,10,0,29,COMPLETE
+8,Platelets,10,10,10,0,29,COMPLETE

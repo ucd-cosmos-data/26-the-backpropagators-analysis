@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "valid_clusters": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+  ],
+  "cluster_gene_entries": 90,
+  "unique_genes": 78,
+  "verified_reference_rows": 231,
+  "verified_unique_pmids": 224
+}

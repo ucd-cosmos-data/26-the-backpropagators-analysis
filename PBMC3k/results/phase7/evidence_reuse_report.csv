@@ -1,0 +1,79 @@
+gene,clusters_using_gene,evidence_reused,source_evidence_file,notes
+AIF1,3; 4,True,results/phase7/genes/AIF1.md,The same verified gene-level evidence is reused; each cluster retains its own marker statistics and later interpretation.
+AQP3,2,False,results/phase7/genes/AQP3.md,No cross-cluster evidence reuse.
+C6orf48,7,False,results/phase7/genes/C6orf48.md,No cross-cluster evidence reuse.
+CCL4,5,False,results/phase7/genes/CCL4.md,No cross-cluster evidence reuse.
+CCL5,0; 6,True,results/phase7/genes/CCL5.md,The same verified gene-level evidence is reused; each cluster retains its own marker statistics and later interpretation.
+CCR7,7,False,results/phase7/genes/CCR7.md,No cross-cluster evidence reuse.
+CD14,3,False,results/phase7/genes/CD14.md,No cross-cluster evidence reuse.
+CD2,2,False,results/phase7/genes/CD2.md,No cross-cluster evidence reuse.
+CD3D,2; 6; 7,True,results/phase7/genes/CD3D.md,The same verified gene-level evidence is reused; each cluster retains its own marker statistics and later interpretation.
+CD3E,2; 7,True,results/phase7/genes/CD3E.md,The same verified gene-level evidence is reused; each cluster retains its own marker statistics and later interpretation.
+CD7,7,False,results/phase7/genes/CD7.md,No cross-cluster evidence reuse.
+CD79A,1,False,results/phase7/genes/CD79A.md,No cross-cluster evidence reuse.
+CD79B,1,False,results/phase7/genes/CD79B.md,No cross-cluster evidence reuse.
+CD8A,0,False,results/phase7/genes/CD8A.md,No cross-cluster evidence reuse.
+CD9,8,False,results/phase7/genes/CD9.md,No cross-cluster evidence reuse.
+CDKN1C,4,False,results/phase7/genes/CDKN1C.md,No cross-cluster evidence reuse.
+CFD,4,False,results/phase7/genes/CFD.md,No cross-cluster evidence reuse.
+CST3,3,False,results/phase7/genes/CST3.md,No cross-cluster evidence reuse.
+CST7,0; 5,True,results/phase7/genes/CST7.md,The same verified gene-level evidence is reused; each cluster retains its own marker statistics and later interpretation.
+CTSW,0; 5,True,results/phase7/genes/CTSW.md,The same verified gene-level evidence is reused; each cluster retains its own marker statistics and later interpretation.
+FCER1G,4,False,results/phase7/genes/FCER1G.md,No cross-cluster evidence reuse.
+FCER2,1,False,results/phase7/genes/FCER2.md,No cross-cluster evidence reuse.
+FCGR3A,4,False,results/phase7/genes/FCGR3A.md,No cross-cluster evidence reuse.
+FCN1,3,False,results/phase7/genes/FCN1.md,No cross-cluster evidence reuse.
+FGFBP2,5,False,results/phase7/genes/FGFBP2.md,No cross-cluster evidence reuse.
+GNG11,8,False,results/phase7/genes/GNG11.md,No cross-cluster evidence reuse.
+GNLY,5,False,results/phase7/genes/GNLY.md,No cross-cluster evidence reuse.
+GP9,8,False,results/phase7/genes/GP9.md,No cross-cluster evidence reuse.
+GZMA,0; 5,True,results/phase7/genes/GZMA.md,The same verified gene-level evidence is reused; each cluster retains its own marker statistics and later interpretation.
+GZMB,5,False,results/phase7/genes/GZMB.md,No cross-cluster evidence reuse.
+GZMH,0,False,results/phase7/genes/GZMH.md,No cross-cluster evidence reuse.
+GZMK,0,False,results/phase7/genes/GZMK.md,No cross-cluster evidence reuse.
+HIST1H2AC,8,False,results/phase7/genes/HIST1H2AC.md,No cross-cluster evidence reuse.
+HLA-DQA1,1,False,results/phase7/genes/HLA-DQA1.md,No cross-cluster evidence reuse.
+HLA-DQB1,1,False,results/phase7/genes/HLA-DQB1.md,No cross-cluster evidence reuse.
+HLA-DRA,1,False,results/phase7/genes/HLA-DRA.md,No cross-cluster evidence reuse.
+IFITM3,4,False,results/phase7/genes/IFITM3.md,No cross-cluster evidence reuse.
+IL32,2; 6,True,results/phase7/genes/IL32.md,The same verified gene-level evidence is reused; each cluster retains its own marker statistics and later interpretation.
+IL7R,2,False,results/phase7/genes/IL7R.md,No cross-cluster evidence reuse.
+ITGA2B,8,False,results/phase7/genes/ITGA2B.md,No cross-cluster evidence reuse.
+KLRG1,0,False,results/phase7/genes/KLRG1.md,No cross-cluster evidence reuse.
+LDHB,2; 7,True,results/phase7/genes/LDHB.md,The same verified gene-level evidence is reused; each cluster retains its own marker statistics and later interpretation.
+LEF1,7,False,results/phase7/genes/LEF1.md,No cross-cluster evidence reuse.
+LGALS2,3,False,results/phase7/genes/LGALS2.md,No cross-cluster evidence reuse.
+LINC00926,1,False,results/phase7/genes/LINC00926.md,No cross-cluster evidence reuse.
+LST1,3; 4,True,results/phase7/genes/LST1.md,The same verified gene-level evidence is reused; each cluster retains its own marker statistics and later interpretation.
+LTB,2,False,results/phase7/genes/LTB.md,No cross-cluster evidence reuse.
+LYAR,0,False,results/phase7/genes/LYAR.md,No cross-cluster evidence reuse.
+MALAT1,6,False,results/phase7/genes/MALAT1.md,No cross-cluster evidence reuse.
+MS4A1,1,False,results/phase7/genes/MS4A1.md,No cross-cluster evidence reuse.
+MS4A6A,3,False,results/phase7/genes/MS4A6A.md,No cross-cluster evidence reuse.
+MS4A7,4,False,results/phase7/genes/MS4A7.md,No cross-cluster evidence reuse.
+NKG7,0; 5,True,results/phase7/genes/NKG7.md,The same verified gene-level evidence is reused; each cluster retains its own marker statistics and later interpretation.
+NOSIP,7,False,results/phase7/genes/NOSIP.md,No cross-cluster evidence reuse.
+NRGN,8,False,results/phase7/genes/NRGN.md,No cross-cluster evidence reuse.
+PF4,8,False,results/phase7/genes/PF4.md,No cross-cluster evidence reuse.
+PIK3IP1,7,False,results/phase7/genes/PIK3IP1.md,No cross-cluster evidence reuse.
+PPBP,8,False,results/phase7/genes/PPBP.md,No cross-cluster evidence reuse.
+PRF1,5,False,results/phase7/genes/PRF1.md,No cross-cluster evidence reuse.
+PRKCQ-AS1,7,False,results/phase7/genes/PRKCQ-AS1.md,No cross-cluster evidence reuse.
+RP11-290F20.3,4,False,results/phase7/genes/RP11-290F20.3.md,No cross-cluster evidence reuse.
+RPL13,6,False,results/phase7/genes/RPL13.md,No cross-cluster evidence reuse.
+RPL23A,6,False,results/phase7/genes/RPL23A.md,No cross-cluster evidence reuse.
+RPS12,6,False,results/phase7/genes/RPS12.md,No cross-cluster evidence reuse.
+RPS14,6,False,results/phase7/genes/RPS14.md,No cross-cluster evidence reuse.
+RPS25,6,False,results/phase7/genes/RPS25.md,No cross-cluster evidence reuse.
+RPS3,6,False,results/phase7/genes/RPS3.md,No cross-cluster evidence reuse.
+S100A8,3,False,results/phase7/genes/S100A8.md,No cross-cluster evidence reuse.
+S100A9,3,False,results/phase7/genes/S100A9.md,No cross-cluster evidence reuse.
+SDPR,8,False,results/phase7/genes/SDPR.md,No cross-cluster evidence reuse.
+SERPINA1,4,False,results/phase7/genes/SERPINA1.md,No cross-cluster evidence reuse.
+SPARC,8,False,results/phase7/genes/SPARC.md,No cross-cluster evidence reuse.
+SPOCK2,2,False,results/phase7/genes/SPOCK2.md,No cross-cluster evidence reuse.
+SPON2,5,False,results/phase7/genes/SPON2.md,No cross-cluster evidence reuse.
+TCL1A,1,False,results/phase7/genes/TCL1A.md,No cross-cluster evidence reuse.
+TRAT1,2,False,results/phase7/genes/TRAT1.md,No cross-cluster evidence reuse.
+TYROBP,3,False,results/phase7/genes/TYROBP.md,No cross-cluster evidence reuse.
+VPREB3,1,False,results/phase7/genes/VPREB3.md,No cross-cluster evidence reuse.

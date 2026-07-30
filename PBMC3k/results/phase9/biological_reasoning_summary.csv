@@ -1,0 +1,10 @@
+Cluster ID,Proposed Cell Type,Annotation Support,Overall Confidence,Dominant Biological Program,Validation Status
+0,Cytotoxic CD8 T cells,strongly supported,Moderate,Cytotoxic granule and effector-protease module,PASS
+1,B cells,strongly supported,High,B-cell receptor-associated identity module,PASS
+2,IL7R+ memory/helper T cells,partially supported,Moderate,T-cell identity and signaling module,PASS
+3,Classical monocytes,strongly supported,High,Inflammatory classical-monocyte marker module,PASS
+4,CD16+ non-classical monocytes,partially supported,Moderate,CD16-associated monocyte identity module,PASS
+5,NK cells,strongly supported,Moderate,Cytotoxic granule effector module,PASS
+6,Activated/transitional T cells,partially supported,Low,T-cell-associated marker module,PASS
+7,Naive/resting T cells,partially supported,Moderate,T-cell identity module,PASS
+8,Platelets,strongly supported,High,Platelet identity and membrane-function module,PASS

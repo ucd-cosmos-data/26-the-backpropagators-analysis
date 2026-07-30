@@ -1,0 +1,193 @@
+{
+  "cluster_id": "5",
+  "proposed_cell_type": "NK cells",
+  "annotation_assessment": {
+    "support_level": "strongly supported",
+    "supporting_genes": [
+      "GZMB",
+      "FGFBP2",
+      "GNLY",
+      "PRF1",
+      "NKG7",
+      "CST7",
+      "GZMA",
+      "CCL4",
+      "CTSW"
+    ],
+    "supporting_evidence": "DATASET OBSERVATION: the cluster contains a broad, concordant set of highly enriched cytotoxic-lymphocyte markers. GZMB has the highest marker score (142.95891), NKG7 is detected in all cluster cells, and GZMB, PRF1, CST7, GZMA, and CTSW are each detected in more than 95% of cluster cells while being less prevalent outside the cluster. LITERATURE-SUPPORTED FACT: the supplied studies place GZMB, GNLY, PRF1, NKG7, GZMA, and CTSW in NK-cell and cytotoxic-lymphocyte contexts, and human single-cell studies use FGFBP2 to identify cytotoxic NK-cell states (PMID:39179536, PMID:14499265, PMID:12060139, PMID:32839608, PMID:36792800, PMID:19100676, PMID:31801909). BIOLOGICAL INFERENCE: the agreement between the multi-gene dataset pattern and these literature contexts strongly supports the NK-cell annotation, although it does not establish that the markers are unique to NK cells.",
+    "alternative_interpretations": [
+      "A cytotoxic CD8 T-cell population is plausible because the supplied literature also reports GZMB, GNLY, PRF1, NKG7, GZMA, and CTSW in cytotoxic T-cell contexts.",
+      "An NKT-cell or gamma-delta T-cell state is plausible because the supplied FGFBP2 and GNLY summaries include those related cytotoxic lymphocyte contexts.",
+      "A strongly cytotoxic or mature NK-cell state is plausible within the broader NK-cell annotation, but the supplied evidence does not define a unique state boundary."
+    ],
+    "additional_evidence_needed": [
+      "Independent measurements of NK-lineage and T-lineage identity would help distinguish NK cells from cytotoxic T-cell, NKT-cell, and gamma-delta T-cell alternatives.",
+      "Protein-level measurements and receptor-sequence information would help separate related cytotoxic lymphocyte identities.",
+      "Comparison with independent peripheral-blood cohorts would help determine whether the marker combination is stable across datasets.",
+      "Functional measurements would be needed to establish whether the observed transcript program corresponds to cytotoxic activity."
+    ]
+  },
+  "strongest_dataset_observations": [
+    {
+      "gene": "GZMB",
+      "observation": "DATASET OBSERVATION: GZMB ranks first, with avg_log2FC 7.890887, adjusted p-value 4.623276e-85, pct_in 0.973856, pct_out 0.068008, specificity_delta 0.905848, and marker score 142.95891.",
+      "importance": "DATASET OBSERVATION: this is the largest marker score and specificity delta among the ten supplied representative genes, combining high prevalence, high fold change, and low outside-cluster prevalence."
+    },
+    {
+      "gene": "FGFBP2",
+      "observation": "DATASET OBSERVATION: FGFBP2 ranks second, with avg_log2FC 6.923403, adjusted p-value 1.184735e-70, pct_in 0.895425, pct_out 0.061569, specificity_delta 0.833855, and marker score 115.462342.",
+      "importance": "DATASET OBSERVATION: its high marker score, high within-cluster prevalence, and low outside-cluster prevalence make it a strong state-associated marker in this cluster."
+    },
+    {
+      "gene": "GNLY",
+      "observation": "DATASET OBSERVATION: GNLY ranks third, with avg_log2FC 7.358587, adjusted p-value 2.051503e-72, pct_in 0.915033, pct_out 0.134809, specificity_delta 0.780224, and marker score 114.826898.",
+      "importance": "DATASET OBSERVATION: GNLY combines the second-highest supplied fold change with broad cluster expression and substantially lower expression outside the cluster."
+    },
+    {
+      "gene": "PRF1",
+      "observation": "DATASET OBSERVATION: PRF1 ranks fourth, with avg_log2FC 6.527348, adjusted p-value 9.805125e-83, pct_in 0.96732, pct_out 0.106237, specificity_delta 0.861083, and marker score 112.411747.",
+      "importance": "DATASET OBSERVATION: PRF1 is present in nearly all cluster cells and has the second-largest supplied specificity delta, supporting a coherent rather than rare-cell-restricted pattern."
+    },
+    {
+      "gene": "NKG7",
+      "observation": "DATASET OBSERVATION: NKG7 ranks fifth, with avg_log2FC 6.985301, adjusted p-value 4.393452e-88, pct_in 1.0, pct_out 0.255533, specificity_delta 0.744467, and marker score 104.006494.",
+      "importance": "DATASET OBSERVATION: NKG7 is detected in every cluster cell and has the smallest supplied adjusted p-value, although its higher outside-cluster prevalence makes it less specific than GZMB, FGFBP2, or PRF1."
+    },
+    {
+      "gene": "CST7",
+      "observation": "DATASET OBSERVATION: CST7 ranks sixth, with avg_log2FC 5.519955, adjusted p-value 6.498606e-76, pct_in 0.96732, pct_out 0.148893, specificity_delta 0.818427, and marker score 90.353588.",
+      "importance": "DATASET OBSERVATION: its broad within-cluster expression and large specificity delta support a cluster-wide protease-regulatory component."
+    }
+  ],
+  "functional_modules": [
+    {
+      "module_name": "Cytotoxic granule effector module",
+      "genes": [
+        "GZMB",
+        "GNLY",
+        "PRF1",
+        "GZMA"
+      ],
+      "dataset_support": "DATASET OBSERVATION: all four genes rank among the top eight representatives. Their pct_in values range from 0.915033 to 0.973856, their pct_out values range from 0.068008 to 0.150905, their avg_log2FC values range from 5.479171 to 7.890887, and their marker scores range from 88.033071 to 142.95891. This is a broad and cluster-enriched multi-gene pattern.",
+      "literature_support": "LITERATURE-SUPPORTED FACT: the supplied review organizes GZMB with PRF1 and GNLY in the NK-cell cytotoxic arsenal (PMID:39179536). GNLY is reported as a cytotoxic and antimicrobial granule protein, with human lymphocyte studies describing its effector-vesicle localization and release (PMID:14499265, PMID:30658247). Human family studies associate PRF1 disruption with impaired cytotoxic function (PMID:12060139, PMID:14757862). The supplied GZMA studies describe context-dependent granzyme effects that differ from GZMB (PMID:32093590, PMID:32299851).",
+      "biological_inference": "BIOLOGICAL INFERENCE: coordinated enrichment of GZMB, GNLY, PRF1, and GZMA is consistent with a cytotoxic granule effector program. This supports cytotoxic capacity as a cluster identity feature, but transcript abundance alone does not establish current degranulation, target contact, or pathway activation.",
+      "confidence": "High",
+      "confidence_reason": "The dataset shows concordant, prevalent, high-scoring enrichment across four functionally related genes, and the supplied evidence includes repeated human and review support. The inference is limited to a cytotoxic expression program rather than measured function.",
+      "reference_ids": [
+        "PMID:39179536",
+        "PMID:14499265",
+        "PMID:30658247",
+        "PMID:12060139",
+        "PMID:14757862",
+        "PMID:32093590",
+        "PMID:32299851"
+      ]
+    },
+    {
+      "module_name": "Granule release and cytotoxic-state module",
+      "genes": [
+        "NKG7",
+        "FGFBP2"
+      ],
+      "dataset_support": "DATASET OBSERVATION: NKG7 is detected in all cluster cells, with avg_log2FC 6.985301 and marker score 104.006494. FGFBP2 is detected in 0.895425 of cluster cells versus 0.061569 outside, with specificity_delta 0.833855 and marker score 115.462342.",
+      "literature_support": "LITERATURE-SUPPORTED FACT: supplied human and experimental evidence reports that NKG7 regulates cytotoxic-granule exocytosis and target killing (PMID:32839608). Supplied human single-cell studies use FGFBP2 as a marker of specialized or strongly cytotoxic NK-cell states while also identifying FGFBP2-positive cytotoxic lymphocyte states more broadly (PMID:31801909, PMID:38065972, PMID:38604154).",
+      "biological_inference": "BIOLOGICAL INFERENCE: the joint NKG7 and FGFBP2 pattern is consistent with a granule-release-associated, strongly cytotoxic lymphocyte state and supports an NK-cell interpretation. FGFBP2 is treated as a correlated state marker, not as proof of a direct causal mechanism or unique lineage.",
+      "confidence": "High",
+      "confidence_reason": "Both genes have high marker scores and broad cluster prevalence, and the supplied literature directly connects NKG7 with granule release and repeatedly associates FGFBP2 with cytotoxic NK states. Confidence is reduced from uniqueness because both summaries include T-cell or broader cytotoxic-lymphocyte contexts.",
+      "reference_ids": [
+        "PMID:32839608",
+        "PMID:31801909",
+        "PMID:38065972",
+        "PMID:38604154"
+      ]
+    },
+    {
+      "module_name": "Effector protease regulation and cytotoxic-lymphocyte marker module",
+      "genes": [
+        "CST7",
+        "CTSW"
+      ],
+      "dataset_support": "DATASET OBSERVATION: CST7 and CTSW are detected in 0.96732 and 0.986928 of cluster cells, respectively. Both are enriched relative to outside-cluster prevalence, with specificity_delta 0.818427 for CST7 and 0.729785 for CTSW, and marker scores of 90.353588 and 68.444433.",
+      "literature_support": "LITERATURE-SUPPORTED FACT: human biochemical evidence identifies CST7 as a protease inhibitor enriched in cytotoxic lymphocytes (PMID:18256700). Human cytotoxic-lymphocyte experiments report CTSW expression and secretion during target contact but find it nonessential in the tested killing assays (PMID:19100676). Mouse knockout and review evidence further leave the indispensable role and substrates of CTSW unresolved (PMID:15087452, PMID:38891048).",
+      "biological_inference": "BIOLOGICAL INFERENCE: the joint enrichment is consistent with a protease-regulatory and lysosomal component accompanying the cytotoxic program. UNKNOWN OR UNCERTAIN: the supplied evidence is insufficient to determine the exact functional contribution of CTSW in this cluster or the direction of CST7 effects in this cellular context.",
+      "confidence": "Moderate",
+      "confidence_reason": "Dataset support is strong and prevalent, but the literature assigns grade C to CTSW and contains explicit evidence that it was not essential in tested cytotoxicity assays. CST7 effects are also described as context-dependent.",
+      "reference_ids": [
+        "PMID:18256700",
+        "PMID:19100676",
+        "PMID:15087452",
+        "PMID:38891048"
+      ]
+    },
+    {
+      "module_name": "Immune communication module",
+      "genes": [
+        "CCL4"
+      ],
+      "dataset_support": "DATASET OBSERVATION: CCL4 has avg_log2FC 5.431434, adjusted p-value 4.898287e-45, pct_in 0.745098, pct_out 0.074849, specificity_delta 0.670249, and marker score 72.808254.",
+      "literature_support": "LITERATURE-SUPPORTED FACT: the supplied review organizes CCL4-associated chemokine communication in NK-cell trafficking, and a human NK-cell study reports chemokine responses during experimentally measured activation (PMID:15354873, PMID:28883824).",
+      "biological_inference": "BIOLOGICAL INFERENCE: CCL4 enrichment is consistent with a communication and recruitment component accompanying the cytotoxic program rather than direct target-cell killing. Transcript enrichment alone does not establish active secretion or trafficking.",
+      "confidence": "Moderate",
+      "confidence_reason": "The dataset shows clear enrichment and the supplied grade B literature supports communication and trafficking contexts, but CCL4 is less prevalent than the core cytotoxic genes and the cited studies are context-specific.",
+      "reference_ids": [
+        "PMID:15354873",
+        "PMID:28883824"
+      ]
+    },
+    {
+      "module_name": "Extracellular innate interaction module",
+      "genes": [
+        "SPON2"
+      ],
+      "dataset_support": "DATASET OBSERVATION: SPON2 has avg_log2FC 6.330124, adjusted p-value 5.106432e-48, pct_in 0.738562, pct_out 0.039437, specificity_delta 0.699125, and marker score 88.511024, indicating clear cluster enrichment.",
+      "literature_support": "LITERATURE-SUPPORTED FACT: the supplied experimental studies describe SPON2 in extracellular pattern recognition, integrin binding, adhesion, and phagocytosis-related signaling (PMID:14691481, PMID:19153605, PMID:30869196). The supplied summary states that macrophage and dendritic-cell interactions are better represented than direct NK-cell evidence.",
+      "biological_inference": "BIOLOGICAL INFERENCE: SPON2 may mark an extracellular interaction component in this cluster, but its role cannot be integrated confidently into the NK-cell cytotoxic program. UNKNOWN OR UNCERTAIN: the supplied evidence is insufficient to determine a direct function for SPON2 in circulating NK cells.",
+      "confidence": "Low",
+      "confidence_reason": "The dataset enrichment is clear, but the literature grade is C, laboratory or animal evidence predominates, and direct NK-cell evidence is explicitly limited.",
+      "reference_ids": [
+        "PMID:14691481",
+        "PMID:19153605",
+        "PMID:30869196"
+      ]
+    }
+  ],
+  "coordinated_biological_program": "DATASET OBSERVATION: cluster 5 jointly enriches cytotoxic granule genes, a granule-release-associated pair, protease-regulatory genes, a communication gene, and an extracellular-interaction gene. LITERATURE-SUPPORTED FACT: the supplied references connect the core genes to cytotoxic granules, pore formation, granule exocytosis, cytotoxic NK states, protease regulation, and immune communication, while providing weaker and less directly NK-specific support for SPON2 and CTSW. BIOLOGICAL INFERENCE: the modules together describe a cytotoxic lymphocyte program centered on granule-associated effector capacity, accompanied by regulatory and communication features. The breadth and prevalence of the core program strongly support the NK-cell annotation, but shared cytotoxic-lymphocyte contexts prevent a claim of lineage uniqueness, and the data do not demonstrate ongoing pathway activation or cell-killing activity.",
+  "supported_conclusions": [
+    "DATASET OBSERVATION: all ten supplied representative genes have positive fold changes, positive specificity deltas, adjusted p-values below 0.05, and higher prevalence inside than outside cluster 5.",
+    "DATASET OBSERVATION: GZMB, PRF1, NKG7, CST7, GZMA, and CTSW are detected in more than 95% of cluster cells.",
+    "LITERATURE-SUPPORTED FACT: GZMB, GNLY, PRF1, NKG7, GZMA, CST7, and CTSW have supplied evidence connecting them to cytotoxic lymphocyte biology, with NK-cell contexts included.",
+    "LITERATURE-SUPPORTED FACT: FGFBP2 is repeatedly used in the supplied human single-cell literature as a marker of cytotoxic NK-cell states.",
+    "LITERATURE-SUPPORTED FACT: CCL4 has supplied support for immune communication and trafficking, whereas direct NK-cell evidence for SPON2 is limited."
+  ],
+  "reasonable_inferences": [
+    "BIOLOGICAL INFERENCE: the concordant cytotoxic granule, release-associated, and regulatory modules make NK cells a stronger interpretation than an unspecified immune population.",
+    "BIOLOGICAL INFERENCE: the FGFBP2, GZMB, GNLY, PRF1, and NKG7 pattern is consistent with a strongly cytotoxic NK-cell state within the broader annotation.",
+    "BIOLOGICAL INFERENCE: CCL4 may add a communication component to the dominant cytotoxic program.",
+    "BIOLOGICAL INFERENCE: CST7 and CTSW may represent regulation or organization accompanying cytotoxic effector machinery, but their exact contributions are unresolved."
+  ],
+  "weak_or_uncertain_interpretations": [
+    "UNKNOWN OR UNCERTAIN: the supplied evidence is insufficient to determine whether cluster 5 is exclusively NK cells rather than a closely related cytotoxic T-cell, NKT-cell, or gamma-delta T-cell population.",
+    "UNKNOWN OR UNCERTAIN: the supplied evidence is insufficient to determine a unique NK maturation, activation, or recent target-contact state.",
+    "UNKNOWN OR UNCERTAIN: the supplied evidence is insufficient to determine a direct immune mechanism for FGFBP2.",
+    "UNKNOWN OR UNCERTAIN: the supplied evidence is insufficient to determine a direct NK-cell role for SPON2.",
+    "UNKNOWN OR UNCERTAIN: the supplied evidence is insufficient to determine whether CTSW is functionally required in this cluster.",
+    "UNKNOWN OR UNCERTAIN: transcript enrichment does not establish protein abundance, secretion, degranulation, target-cell killing, or pathway activation."
+  ],
+  "contradictory_evidence": [
+    "LITERATURE-SUPPORTED FACT: the supplied human CTSW study reports secretion during target contact but finds CTSW nonessential in the tested cytotoxicity assays (PMID:19100676), limiting a claim that CTSW is required for killing.",
+    "LITERATURE-SUPPORTED FACT: FGFBP2 is reported in cytotoxic NK states but also in broader cytotoxic lymphocyte states (PMID:31801909, PMID:38065972), so it does not establish NK-lineage uniqueness.",
+    "LITERATURE-SUPPORTED FACT: NKG7 is studied in both NK-cell and T-cell cytotoxic contexts (PMID:32839608, PMID:34911739, PMID:35013002), so its expression alone cannot distinguish those alternatives.",
+    "LITERATURE-SUPPORTED FACT: direct NK-cell evidence for SPON2 is limited, and its selected evidence primarily concerns experimental innate-immune models (PMID:14691481, PMID:19153605, PMID:30869196)."
+  ],
+  "limitations": [
+    "The classification workflow did not export a cluster-level prediction or probability; the supplied held-out NK-cell metrics are evaluation context against expression-derived labels and are not independent support for this cluster.",
+    "The marker statistics compare cluster 5 with the remaining cells in this dataset and do not establish stability across independent cohorts.",
+    "The literature collection includes reviews, human studies, laboratory studies, animal studies, and context-specific publications; transfer of every reported mechanism to these cells is not established.",
+    "The marker panel is dominated by genes shared across cytotoxic lymphocyte populations, limiting lineage discrimination.",
+    "The supplied evidence contains transcript measurements rather than direct protein-level or functional measurements.",
+    "Disease-related publication settings are treated only as research contexts and are not interpreted as properties of this dataset."
+  ],
+  "overall_confidence": "Moderate",
+  "overall_confidence_reason": "The NK-cell annotation is strongly supported by a prevalent, highly enriched, multi-gene cytotoxic program and repeated supplied human literature linking several markers to NK-cell contexts. Overall confidence is Moderate because many core genes are also documented in cytotoxic T-cell or related lymphocyte contexts, no cluster-level classifier probability is available, and the supplied evidence cannot resolve lineage uniqueness or a finer NK-cell state. SPON2 and CTSW also have weaker or unresolved direct functional support.",
+  "plain_language_explanation": "Cluster 5 shows a strong, coordinated set of genes associated in the supplied studies with immune cells that store and release cell-killing proteins. The pattern fits NK cells well, and additional genes suggest regulation and immune communication alongside the main cytotoxic program. However, several of the same genes also occur in other cytotoxic lymphocytes, so the evidence does not completely exclude closely related T-cell interpretations or identify a precise NK-cell state. The SPON2 and CTSW findings are especially uncertain. These results describe the measured cells and the supplied research evidence only."
+}

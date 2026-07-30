@@ -1,0 +1,1270 @@
+{
+  "AIF1": {
+    "query": "\"AIF1\"[Title/Abstract] AND (\"monocyte\"[Title/Abstract] OR \"myeloid\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "36170234",
+      "37204119",
+      "38898508",
+      "36622892",
+      "39220810",
+      "40325180",
+      "40907791",
+      "40593526",
+      "41042227",
+      "39883516",
+      "41547853",
+      "41448409",
+      "41144108",
+      "37914817",
+      "17453710"
+    ]
+  },
+  "AQP3": {
+    "query": "\"AQP3\"[Title/Abstract] AND (\"T cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "39060229",
+      "33603736",
+      "36717501",
+      "37928265",
+      "37295572",
+      "38279209",
+      "33772013",
+      "36010640",
+      "9043798",
+      "35086002",
+      "40896540",
+      "38726865",
+      "39991571",
+      "24342488",
+      "39984435"
+    ]
+  },
+  "C6orf48": {
+    "query": "\"C6orf48\"[Title/Abstract] AND (\"T cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "15962222",
+      "38246423",
+      "41455820"
+    ]
+  },
+  "CCL5": {
+    "query": "\"CCL5\"[Title/Abstract] AND (\"T cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "35917973",
+      "39093956",
+      "34514075",
+      "40397747",
+      "35762356",
+      "37553567",
+      "31185212",
+      "38585235",
+      "35844519",
+      "38797830",
+      "39349007",
+      "12851646",
+      "38453911",
+      "34215748",
+      "40582566"
+    ]
+  },
+  "CCR7": {
+    "query": "\"CCR7\"[Title/Abstract] AND (\"T cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "10537110",
+      "31334913",
+      "39694280",
+      "40685403",
+      "41421339",
+      "27424807",
+      "39708807",
+      "37814476",
+      "41361070",
+      "40659887",
+      "40513067",
+      "39414763",
+      "38470479",
+      "41321019",
+      "35281921"
+    ]
+  },
+  "CD14": {
+    "query": "\"CD14\"[Title/Abstract] AND (\"monocyte\"[Title/Abstract] OR \"myeloid\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "32066974",
+      "31474513",
+      "39930981",
+      "31033233",
+      "30355494",
+      "12871640",
+      "40527894",
+      "34279540",
+      "32271804",
+      "40023733",
+      "37821442",
+      "37978185",
+      "39661512",
+      "25313167",
+      "30105020"
+    ]
+  },
+  "CD2": {
+    "query": "\"CD2\"[Title/Abstract] AND (\"T cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "32582179",
+      "37327789",
+      "40615696",
+      "34168659",
+      "39220810",
+      "2838364",
+      "40859981",
+      "7693022",
+      "37798328",
+      "1716919",
+      "2482743",
+      "8167306",
+      "40953932",
+      "2566919",
+      "2891540"
+    ]
+  },
+  "CD3D": {
+    "query": "\"CD3D\"[Title/Abstract] AND (\"T cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "38962008",
+      "16264327",
+      "37017187",
+      "36944331",
+      "36701231",
+      "39220810",
+      "33283362",
+      "35719985",
+      "35712757",
+      "41120051",
+      "40577225",
+      "27494091",
+      "37113759",
+      "39014148",
+      "40697415"
+    ]
+  },
+  "CD3E": {
+    "query": "\"CD3E\"[Title/Abstract] AND (\"T cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "35078042",
+      "16264327",
+      "32828819",
+      "26861458",
+      "40324075",
+      "40100323",
+      "36389741",
+      "39220810",
+      "35740248",
+      "35570001",
+      "40577225",
+      "37113759",
+      "35710869",
+      "7937778",
+      "36291815"
+    ]
+  },
+  "CD7": {
+    "query": "\"CD7\"[Title/Abstract] AND (\"T cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "39227445",
+      "32114394",
+      "28539325",
+      "35500125",
+      "34324392",
+      "35435984",
+      "37095094",
+      "36151216",
+      "40390054",
+      "11911397",
+      "41290542",
+      "40771729",
+      "36548020",
+      "39676736",
+      "40702338"
+    ]
+  },
+  "CD79A": {
+    "query": "\"CD79A\"[Title/Abstract] AND (\"B cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "20054396",
+      "38203179",
+      "27507160",
+      "11396639",
+      "12399744",
+      "36228656",
+      "35817538",
+      "31335415",
+      "40734705",
+      "34352467",
+      "41348872",
+      "39220810",
+      "38007772",
+      "29715484",
+      "30619343"
+    ]
+  },
+  "CD79B": {
+    "query": "\"CD79B\"[Title/Abstract] AND (\"B cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "29641966",
+      "38635786",
+      "35933930",
+      "29925955",
+      "20054396",
+      "38203179",
+      "25925619",
+      "29931605",
+      "35538064",
+      "34739844",
+      "38683128",
+      "38215749",
+      "11396639",
+      "35764309",
+      "31807308"
+    ]
+  },
+  "CD8A": {
+    "query": "\"CD8A\"[Title/Abstract] AND (\"T cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "33861994",
+      "35145098",
+      "35078042",
+      "37210042",
+      "32910094",
+      "39694280",
+      "38348045",
+      "28487385",
+      "35834791",
+      "40769312",
+      "38329122",
+      "40681040",
+      "39198909",
+      "38686450",
+      "38580644"
+    ]
+  },
+  "CD9": {
+    "query": "\"CD9\"[Title/Abstract] AND (\"platelet\"[Title/Abstract] OR \"megakaryocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "31597160",
+      "37027478",
+      "40513558",
+      "36190844",
+      "39366998",
+      "38116005",
+      "36202780",
+      "35074474",
+      "39255000",
+      "39873228",
+      "40900124",
+      "42364542",
+      "40086448",
+      "31839906",
+      "41566006"
+    ]
+  },
+  "CDKN1C": {
+    "query": "\"CDKN1C\"[Title/Abstract] AND (\"monocyte\"[Title/Abstract] OR \"myeloid\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "20301568",
+      "20301499",
+      "34827600",
+      "23669186",
+      "31924768",
+      "41175375",
+      "41803883",
+      "33600873",
+      "40982369",
+      "41074767",
+      "41361693",
+      "41569424",
+      "42376017",
+      "30010845",
+      "41126215"
+    ]
+  },
+  "CFD": {
+    "query": "\"CFD\"[Title/Abstract] AND (\"monocyte\"[Title/Abstract] OR \"myeloid\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "40225580",
+      "37439037",
+      "19260931",
+      "40340806",
+      "33762468",
+      "39506790",
+      "37802037",
+      "36339935",
+      "29570754",
+      "35820055",
+      "35718672",
+      "38836653",
+      "36269648",
+      "37574025",
+      "35735995"
+    ]
+  },
+  "CST3": {
+    "query": "\"CST3\"[Title/Abstract] AND (\"monocyte\"[Title/Abstract] OR \"myeloid\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "41162286",
+      "38547579",
+      "38934400",
+      "40576182",
+      "41167578",
+      "39220810",
+      "37854583",
+      "40925202",
+      "40244418",
+      "41233352",
+      "40163249",
+      "40014154",
+      "40518665",
+      "35361907",
+      "40336141"
+    ]
+  },
+  "FCER1G": {
+    "query": "\"FCER1G\"[Title/Abstract] AND (\"monocyte\"[Title/Abstract] OR \"myeloid\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "35726350",
+      "37008925",
+      "40215324",
+      "39143741",
+      "39218971",
+      "41758834",
+      "31951107",
+      "28659358",
+      "37905680",
+      "41866337",
+      "38524141",
+      "36054819",
+      "37202883",
+      "39071704",
+      "41170717"
+    ]
+  },
+  "FCER2": {
+    "query": "\"FCER2\"[Title/Abstract] AND (\"B cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "38324641",
+      "36445014",
+      "36910110",
+      "39575767",
+      "41540405",
+      "33108776",
+      "40475580",
+      "24010859",
+      "27695350",
+      "27502165",
+      "30591526",
+      "42120924",
+      "37828063",
+      "36153670",
+      "38262270"
+    ]
+  },
+  "FCGR3A": {
+    "query": "\"FCGR3A\"[Title/Abstract] AND (\"monocyte\"[Title/Abstract] OR \"myeloid\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "35361683",
+      "37464408",
+      "35856557",
+      "37468466",
+      "33030400",
+      "39916961",
+      "40320713",
+      "38640017",
+      "40539070",
+      "41438750",
+      "41173191",
+      "40607390",
+      "40026314",
+      "41030449",
+      "36591270"
+    ]
+  },
+  "FCN1": {
+    "query": "\"FCN1\"[Title/Abstract] AND (\"monocyte\"[Title/Abstract] OR \"myeloid\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "38347955",
+      "39916957",
+      "38937794",
+      "41501466",
+      "37470432",
+      "34042322",
+      "38262391",
+      "40954153",
+      "40087745",
+      "39171604",
+      "39139822",
+      "41327651",
+      "36932401",
+      "30169661",
+      "32820945"
+    ]
+  },
+  "GNG11": {
+    "query": "\"GNG11\"[Title/Abstract] AND (\"platelet\"[Title/Abstract] OR \"megakaryocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "28613276",
+      "34113163",
+      "40383719",
+      "36527532",
+      "33745433",
+      "36796459",
+      "39723337",
+      "42135635",
+      "20670477",
+      "39925932",
+      "32165293",
+      "32066736",
+      "22748014",
+      "33950983",
+      "23484538"
+    ]
+  },
+  "GP9": {
+    "query": "\"GP9\"[Title/Abstract] AND (\"platelet\"[Title/Abstract] OR \"megakaryocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "38660492",
+      "41017962",
+      "17109744",
+      "24934643",
+      "40045897",
+      "31484196",
+      "39867007",
+      "37416759",
+      "33553065",
+      "23995613",
+      "27291889",
+      "40941697",
+      "32030720",
+      "34553764",
+      "29119855"
+    ]
+  },
+  "GZMH": {
+    "query": "\"GZMH\"[Title/Abstract] AND (\"T cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "35389781",
+      "38612926",
+      "40974256",
+      "40878981",
+      "40970118",
+      "38499993",
+      "42261224",
+      "38986249",
+      "40416605",
+      "41740930",
+      "39394177",
+      "38928129",
+      "40216823",
+      "40223063",
+      "36514045"
+    ]
+  },
+  "GZMK": {
+    "query": "\"GZMK\"[Title/Abstract] AND (\"T cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "37963457",
+      "31061532",
+      "39889705",
+      "30479382",
+      "33271118",
+      "33958794",
+      "35361683",
+      "40500691",
+      "37930937",
+      "39419536",
+      "39814882",
+      "35121991",
+      "40651883",
+      "35704599",
+      "39614076"
+    ]
+  },
+  "HIST1H2AC": {
+    "query": "\"HIST1H2AC\"[Title/Abstract] AND (\"platelet\"[Title/Abstract] OR \"megakaryocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "30782612",
+      "28178938"
+    ]
+  },
+  "HLA-DQA1": {
+    "query": "\"HLA-DQA1\"[Title/Abstract] AND (\"B cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "32616761",
+      "37756161",
+      "38063198",
+      "41120349",
+      "16280653",
+      "38036787",
+      "37906636",
+      "41866337",
+      "40682483",
+      "35074870",
+      "40583108",
+      "40428403",
+      "41364757",
+      "41173191",
+      "39258111"
+    ]
+  },
+  "HLA-DQB1": {
+    "query": "\"HLA-DQB1\"[Title/Abstract] AND (\"B cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "38954480",
+      "30232458",
+      "36671730",
+      "38663202",
+      "41438366",
+      "37906636",
+      "40585110",
+      "39167735",
+      "41364757",
+      "41136183",
+      "1457282",
+      "41499722",
+      "40373365",
+      "40583108",
+      "28052334"
+    ]
+  },
+  "HLA-DRA": {
+    "query": "\"HLA-DRA\"[Title/Abstract] AND (\"B cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "37172580",
+      "31061532",
+      "40993240",
+      "40157360",
+      "38644354",
+      "37652020",
+      "39694280",
+      "32843324",
+      "35430876",
+      "37008925",
+      "36211422",
+      "36801619",
+      "39220810",
+      "40696268",
+      "40969714"
+    ]
+  },
+  "IFITM3": {
+    "query": "\"IFITM3\"[Title/Abstract] AND (\"monocyte\"[Title/Abstract] OR \"myeloid\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "38954480",
+      "34389631",
+      "40611157",
+      "36738683",
+      "40684176",
+      "40998960",
+      "23890736",
+      "38347676",
+      "34321071",
+      "38737767",
+      "37259108",
+      "40636452",
+      "35545739",
+      "40981440",
+      "39859341"
+    ]
+  },
+  "IL32": {
+    "query": "\"IL32\"[Title/Abstract] AND (\"T cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "37606849",
+      "37017187",
+      "40997225",
+      "30528824",
+      "24185831",
+      "30638183",
+      "40330458",
+      "39435643",
+      "39114979",
+      "37868834",
+      "27489795",
+      "40524231",
+      "39572160",
+      "29751003",
+      "19828090"
+    ]
+  },
+  "IL7R": {
+    "query": "\"IL7R\"[Title/Abstract] AND (\"T cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "34290408",
+      "40993240",
+      "22237106",
+      "35413272",
+      "37672564",
+      "34583709",
+      "39137044",
+      "38843844",
+      "37017187",
+      "31383581",
+      "36438481",
+      "39982469",
+      "17723218",
+      "38956225",
+      "38816232"
+    ]
+  },
+  "ITGA2B": {
+    "query": "\"ITGA2B\"[Title/Abstract] AND (\"platelet\"[Title/Abstract] OR \"megakaryocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "38295661",
+      "39464035",
+      "26787735",
+      "41503871",
+      "41301446",
+      "32139434",
+      "41944931",
+      "37554440",
+      "40227083",
+      "39147240",
+      "27965976",
+      "33147934",
+      "40571222",
+      "36991505",
+      "22952660"
+    ]
+  },
+  "KLRG1": {
+    "query": "\"KLRG1\"[Title/Abstract] AND (\"T cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "35803260",
+      "33658358",
+      "31606264",
+      "39658611",
+      "33829508",
+      "37756440",
+      "37231145",
+      "29625895",
+      "32954948",
+      "40307497",
+      "17723218",
+      "31618654",
+      "39113243",
+      "38252421",
+      "34353854"
+    ]
+  },
+  "LDHB": {
+    "query": "\"LDHB\"[Title/Abstract] AND (\"T cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "40461882",
+      "39731912",
+      "38702940",
+      "37843477",
+      "35682650",
+      "38326896",
+      "40554821",
+      "40977852",
+      "40377730",
+      "41939783",
+      "36090994",
+      "36961904",
+      "41314051",
+      "35533751",
+      "24013023"
+    ]
+  },
+  "LEF1": {
+    "query": "\"LEF1\"[Title/Abstract] AND (\"T cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "37137915",
+      "40250419",
+      "38589618",
+      "42385703",
+      "34788079",
+      "38843844",
+      "39567475",
+      "38578828",
+      "39133553",
+      "34127847",
+      "39762891",
+      "38452403",
+      "12633671",
+      "40938954",
+      "41120274"
+    ]
+  },
+  "LGALS2": {
+    "query": "\"LGALS2\"[Title/Abstract] AND (\"monocyte\"[Title/Abstract] OR \"myeloid\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "39350165",
+      "38761406",
+      "42391674",
+      "36499335",
+      "37527614",
+      "38947403",
+      "19330599",
+      "40438247",
+      "42133797",
+      "31602302",
+      "42213300",
+      "29093763",
+      "15236665",
+      "33880624",
+      "41762628"
+    ]
+  },
+  "LINC00926": {
+    "query": "\"LINC00926\"[Title/Abstract] AND (\"B cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "42274770",
+      "36386591",
+      "37728413",
+      "38156018",
+      "35551428"
+    ]
+  },
+  "LST1": {
+    "query": "\"LST1\"[Title/Abstract] AND (\"monocyte\"[Title/Abstract] OR \"myeloid\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "41488617",
+      "40072762",
+      "16362817",
+      "33986741",
+      "10706707",
+      "41204370",
+      "24816991",
+      "22589543",
+      "35096929",
+      "36322817",
+      "36187340",
+      "41376220",
+      "9527420",
+      "38947313",
+      "35372347"
+    ]
+  },
+  "LTB": {
+    "query": "\"LTB\"[Title/Abstract] AND (\"T cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "23994464",
+      "33748804",
+      "33526609",
+      "39982469",
+      "20641480",
+      "40327039",
+      "41448881",
+      "18692027",
+      "20298355",
+      "41241792",
+      "41332750",
+      "38996461",
+      "22069646",
+      "12895597",
+      "38632993"
+    ]
+  },
+  "LYAR": {
+    "query": "\"LYAR\"[Title/Abstract] AND (\"T cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "39159060",
+      "8491376",
+      "41398796",
+      "41279381",
+      "38814181",
+      "42283034",
+      "32351504",
+      "36070690",
+      "41352636",
+      "34858833",
+      "39700955",
+      "42419582",
+      "42307068",
+      "31001336",
+      "24961659"
+    ]
+  },
+  "MALAT1": {
+    "query": "\"MALAT1\"[Title/Abstract] AND (\"T cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "39141703",
+      "31436334",
+      "38493144",
+      "33936064",
+      "35473929",
+      "37117750",
+      "36890785",
+      "38195932",
+      "37188501",
+      "39613786",
+      "38790894",
+      "35462859",
+      "38087169",
+      "31263681",
+      "31940466"
+    ]
+  },
+  "MS4A1": {
+    "query": "\"MS4A1\"[Title/Abstract] AND (\"B cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "32482755",
+      "39696439",
+      "40727939",
+      "39220810",
+      "41267169",
+      "40849886",
+      "22665052",
+      "40367012",
+      "22514692",
+      "37433400",
+      "34252986",
+      "33352466",
+      "39239552",
+      "40486872",
+      "39197587"
+    ]
+  },
+  "MS4A6A": {
+    "query": "\"MS4A6A\"[Title/Abstract] AND (\"monocyte\"[Title/Abstract] OR \"myeloid\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "37459313",
+      "41435829",
+      "36969247",
+      "30906402",
+      "33712570",
+      "41515934",
+      "36119086",
+      "40090082",
+      "39470579",
+      "31413141",
+      "38488530",
+      "26923404",
+      "31799158",
+      "41239018",
+      "24064185"
+    ]
+  },
+  "MS4A7": {
+    "query": "\"MS4A7\"[Title/Abstract] AND (\"monocyte\"[Title/Abstract] OR \"myeloid\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "35990663",
+      "38478630",
+      "39954254",
+      "36944954",
+      "40356720",
+      "41387900",
+      "34346525",
+      "36401283",
+      "38015097",
+      "34633990",
+      "40196477",
+      "30613266",
+      "35924143",
+      "38001428",
+      "35568031"
+    ]
+  },
+  "NOSIP": {
+    "query": "\"NOSIP\"[Title/Abstract] AND (\"T cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "42440569",
+      "35660746",
+      "41621040",
+      "28521044",
+      "34335698",
+      "28850114",
+      "33782480"
+    ]
+  },
+  "NRGN": {
+    "query": "\"NRGN\"[Title/Abstract] AND (\"platelet\"[Title/Abstract] OR \"megakaryocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "41554902",
+      "31234132",
+      "37842184",
+      "40840974",
+      "35483054",
+      "26025774",
+      "41637423",
+      "38867193",
+      "34440371",
+      "34415061",
+      "40250785",
+      "39708777",
+      "35728350",
+      "30372675",
+      "35152125"
+    ]
+  },
+  "PF4": {
+    "query": "\"PF4\"[Title/Abstract] AND (\"platelet\"[Title/Abstract] OR \"megakaryocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "37587343",
+      "38156445",
+      "40589323",
+      "38066843",
+      "40920871",
+      "37587231",
+      "35512902",
+      "39651177",
+      "36891903",
+      "37883798",
+      "24832941",
+      "42441431",
+      "40745405",
+      "38008700",
+      "39025985"
+    ]
+  },
+  "PIK3IP1": {
+    "query": "\"PIK3IP1\"[Title/Abstract] AND (\"T cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "30392958",
+      "40995824",
+      "22706993",
+      "31350312",
+      "40791507",
+      "38746242",
+      "33024547",
+      "30429249",
+      "39454954",
+      "41571844",
+      "39361430",
+      "35134564",
+      "35553648",
+      "39294296",
+      "30845171"
+    ]
+  },
+  "PPBP": {
+    "query": "\"PPBP\"[Title/Abstract] AND (\"platelet\"[Title/Abstract] OR \"megakaryocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "41258106",
+      "40745405",
+      "39372399",
+      "35734636",
+      "40971495",
+      "28420383",
+      "42180183",
+      "30898878",
+      "37355563",
+      "40903865",
+      "41490841",
+      "30655761",
+      "34344933",
+      "34273008",
+      "37614152"
+    ]
+  },
+  "PRKCQ-AS1": {
+    "query": "\"PRKCQ-AS1\"[Title/Abstract] AND (\"T cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "40433053",
+      "38229689",
+      "37488493",
+      "38243290"
+    ]
+  },
+  "RP11-290F20.3": {
+    "query": "\"RP11-290F20.3\"[Title/Abstract]",
+    "candidate_pmids": []
+  },
+  "RPL13": {
+    "query": "\"RPL13\"[Title/Abstract] AND (\"T cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "40642922",
+      "40764361",
+      "40707667",
+      "37373158",
+      "40565588",
+      "37864923",
+      "42227377",
+      "31116771",
+      "34193041",
+      "41779063",
+      "25424902",
+      "40187017",
+      "35790430",
+      "22183870"
+    ]
+  },
+  "RPL23A": {
+    "query": "\"RPL23A\"[Title/Abstract] AND (\"T cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "25324392",
+      "42311670",
+      "37864923",
+      "36464874",
+      "37400220",
+      "34030014",
+      "41112769"
+    ]
+  },
+  "RPS12": {
+    "query": "\"RPS12\"[Title/Abstract] AND (\"T cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "37272618",
+      "41261408",
+      "35198011",
+      "37275236",
+      "34380904",
+      "37400220",
+      "33390805",
+      "29359194",
+      "24447443",
+      "24653816"
+    ]
+  },
+  "RPS14": {
+    "query": "\"RPS14\"[Title/Abstract] AND (\"T cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "39656543",
+      "40642093",
+      "20980806",
+      "34432872",
+      "36516431",
+      "35766008",
+      "33183999",
+      "32571542",
+      "23506134",
+      "35362549",
+      "40438364",
+      "34380904",
+      "35228815",
+      "33354565",
+      "19773262"
+    ]
+  },
+  "RPS25": {
+    "query": "\"RPS25\"[Title/Abstract] AND (\"T cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "28260789",
+      "40842654",
+      "37191016",
+      "35766008",
+      "26044444",
+      "37400220",
+      "24623421"
+    ]
+  },
+  "RPS3": {
+    "query": "\"RPS3\"[Title/Abstract] AND (\"T cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "29608488",
+      "40023134",
+      "40895568",
+      "37603533",
+      "42220485",
+      "37087770",
+      "40444294",
+      "35313339",
+      "35766008",
+      "36458816",
+      "38267845",
+      "35616135",
+      "41497799",
+      "36147486",
+      "37784026"
+    ]
+  },
+  "S100A8": {
+    "query": "\"S100A8\"[Title/Abstract] AND (\"monocyte\"[Title/Abstract] OR \"myeloid\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "37612267",
+      "33657410",
+      "35112806",
+      "32344053",
+      "27492899",
+      "38013255",
+      "40758632",
+      "38334462",
+      "31941367",
+      "39266214",
+      "33301706",
+      "39929053",
+      "33359089",
+      "39135683",
+      "38776909"
+    ]
+  },
+  "S100A9": {
+    "query": "\"S100A9\"[Title/Abstract] AND (\"monocyte\"[Title/Abstract] OR \"myeloid\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "37337301",
+      "36656750",
+      "35112806",
+      "38323308",
+      "32344053",
+      "38013255",
+      "39266214",
+      "40384874",
+      "38334462",
+      "40883571",
+      "32434457",
+      "36830768",
+      "39190625",
+      "33301706",
+      "40015948"
+    ]
+  },
+  "SDPR": {
+    "query": "\"SDPR\"[Title/Abstract] AND (\"platelet\"[Title/Abstract] OR \"megakaryocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "37291580",
+      "30522007",
+      "19852682",
+      "25124890",
+      "26086560",
+      "34592589",
+      "1617016",
+      "34876190",
+      "32626985",
+      "32695663",
+      "27793000",
+      "42157490",
+      "30346224",
+      "23155317",
+      "27008916"
+    ]
+  },
+  "SERPINA1": {
+    "query": "\"SERPINA1\"[Title/Abstract] AND (\"monocyte\"[Title/Abstract] OR \"myeloid\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "41270966",
+      "28723059",
+      "39939782",
+      "39737188",
+      "41054850",
+      "38383428",
+      "40897921",
+      "41558114",
+      "39226462",
+      "41056512",
+      "40669270",
+      "40520228",
+      "36229050",
+      "33822969",
+      "35177824"
+    ]
+  },
+  "SPARC": {
+    "query": "\"SPARC\"[Title/Abstract] AND (\"platelet\"[Title/Abstract] OR \"megakaryocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "40608178",
+      "33426371",
+      "35649411",
+      "39904988",
+      "39501335",
+      "37220502",
+      "35409356",
+      "32985264",
+      "32554932",
+      "41402314",
+      "35675640",
+      "40104024",
+      "39382748",
+      "36595669",
+      "39256753"
+    ]
+  },
+  "SPOCK2": {
+    "query": "\"SPOCK2\"[Title/Abstract] AND (\"T cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "39695715",
+      "39741186",
+      "37165378",
+      "39634331",
+      "39115722",
+      "38897129",
+      "34203581",
+      "36776884",
+      "37039643",
+      "38535087",
+      "40362233",
+      "42120924",
+      "38885605",
+      "35748267",
+      "42305453"
+    ]
+  },
+  "TCL1A": {
+    "query": "\"TCL1A\"[Title/Abstract] AND (\"B cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "35835912",
+      "37046083",
+      "33603736",
+      "38764038",
+      "34206047",
+      "37791059",
+      "36179280",
+      "34771618",
+      "41267169",
+      "41372872",
+      "37905118",
+      "39946833",
+      "38775302",
+      "40367012",
+      "18820675"
+    ]
+  },
+  "TRAT1": {
+    "query": "\"TRAT1\"[Title/Abstract] AND (\"T cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "41074026",
+      "36184729",
+      "41076046",
+      "40216823",
+      "36276113",
+      "35322421",
+      "34083506",
+      "35272594",
+      "40725440",
+      "26811477",
+      "39911479",
+      "37962205",
+      "42485749",
+      "41986072",
+      "36330432"
+    ]
+  },
+  "TYROBP": {
+    "query": "\"TYROBP\"[Title/Abstract] AND (\"monocyte\"[Title/Abstract] OR \"myeloid\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "36002854",
+      "35990663",
+      "38871184",
+      "35123512",
+      "39508103",
+      "25052481",
+      "37207157",
+      "40301889",
+      "38177242",
+      "41435829",
+      "38007772",
+      "41301467",
+      "36595751",
+      "35683020",
+      "40559990"
+    ]
+  },
+  "VPREB3": {
+    "query": "\"VPREB3\"[Title/Abstract] AND (\"B cell\"[Title/Abstract] OR \"lymphocyte\"[Title/Abstract] OR \"blood\"[Title/Abstract] OR \"PBMC\"[Title/Abstract] OR \"single-cell\"[Title/Abstract])",
+    "candidate_pmids": [
+      "37810210",
+      "10702669",
+      "20823132",
+      "25861052",
+      "24493312",
+      "34371177",
+      "14670953",
+      "22684248",
+      "22210545",
+      "36311706",
+      "37700827",
+      "7961773",
+      "27799525",
+      "33777841",
+      "34762705"
+    ]
+  }
+}

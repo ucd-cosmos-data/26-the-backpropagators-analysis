@@ -1,0 +1,10 @@
+cluster_id,cell_type,cell_count,percentage_of_total
+0,Cytotoxic CD8 T cells,273,10.348749052312359
+1,B cells,348,13.191811978771797
+2,IL7R+ memory/helper T cells,602,22.820318423047762
+3,Classical monocytes,502,19.02956785443518
+4,CD16+ non-classical monocytes,171,6.482183472327521
+5,NK cells,153,5.799848369977256
+6,Activated/transitional T cells,128,4.852160727824109
+7,Naive/resting T cells,450,17.058377558756632
+8,Platelets,11,0.41698256254738436

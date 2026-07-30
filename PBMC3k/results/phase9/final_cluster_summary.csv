@@ -1,0 +1,10 @@
+Cluster ID,Proposed Cell Type,Top representative markers,Annotation Support,Overall Confidence,Dominant Biological Program,Validation Status
+0,Cytotoxic CD8 T cells,"NKG7, CCL5, GZMA, CST7, GZMK",strongly supported,Moderate,Cytotoxic granule and effector-protease module,PASS
+1,B cells,"CD79A, MS4A1, CD79B, TCL1A, HLA-DQA1",strongly supported,High,B-cell receptor-associated identity module,PASS
+2,IL7R+ memory/helper T cells,"IL32, IL7R, CD3D, LTB, CD3E",partially supported,Moderate,T-cell identity and signaling module,PASS
+3,Classical monocytes,"S100A8, LGALS2, S100A9, FCN1, CST3",strongly supported,High,Inflammatory classical-monocyte marker module,PASS
+4,CD16+ non-classical monocytes,"FCGR3A, IFITM3, MS4A7, RP11-290F20.3, LST1",partially supported,Moderate,CD16-associated monocyte identity module,PASS
+5,NK cells,"GZMB, FGFBP2, GNLY, PRF1, NKG7",strongly supported,Moderate,Cytotoxic granule effector module,PASS
+6,Activated/transitional T cells,"CCL5, IL32, CD3D, RPL23A, RPS3",partially supported,Low,T-cell-associated marker module,PASS
+7,Naive/resting T cells,"CCR7, CD3D, LDHB, PRKCQ-AS1, NOSIP",partially supported,Moderate,T-cell identity module,PASS
+8,Platelets,"PPBP, PF4, GNG11, SDPR, SPARC",strongly supported,High,Platelet identity and membrane-function module,PASS

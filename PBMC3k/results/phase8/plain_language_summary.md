@@ -1,0 +1,3 @@
+# Plain-Language Summary
+
+Cluster 5 shows a strong, coordinated set of genes associated in the supplied studies with immune cells that store and release cell-killing proteins. The pattern fits NK cells well, and additional genes suggest regulation and immune communication alongside the main cytotoxic program. However, several of the same genes also occur in other cytotoxic lymphocytes, so the evidence does not completely exclude closely related T-cell interpretations or identify a precise NK-cell state. The SPON2 and CTSW findings are especially uncertain. These results describe the measured cells and the supplied research evidence only.

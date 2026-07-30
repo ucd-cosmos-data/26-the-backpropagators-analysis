@@ -1,0 +1,2 @@
+reviewed_cell_type,predicted_cell_type,cells,median_max_probability,mean_max_probability,low_confidence_cells,percent_within_reviewed_class
+Dendritic cells,B cells,34,0.9615129828453064,0.9439977898317224,0,100.0

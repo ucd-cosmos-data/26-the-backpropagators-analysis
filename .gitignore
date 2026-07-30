@@ -36,6 +36,14 @@ PBMC3k/data/interim/*
 PBMC3k/data/processed/*
 !PBMC3k/data/processed/.gitkeep
 
+# PBMC4k downloads are large and must remain local.
+PBMC4k/data/raw/*
+!PBMC4k/data/raw/.gitkeep
+PBMC4k/data/interim/*
+!PBMC4k/data/interim/.gitkeep
+PBMC4k/data/processed/*
+!PBMC4k/data/processed/.gitkeep
+
 
 
 # Results

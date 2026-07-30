@@ -18,7 +18,7 @@ The project has three connected goals:
 3. **Machine learning:** determine whether a classifier trained on one dataset
    generalizes to the other.
 
-The PBMC4k dataset contains approximately 4,342 cells from one healthy donor.
+The PBMC4k dataset contains approximately 4,340 cells from one healthy donor.
 The public documentation does not establish that the PBMC3k and PBMC4k samples
 came from different people. They should therefore be described as two datasets
 or samples, not definitively as two donors.
@@ -68,11 +68,13 @@ Harmony does not require the BAM, BAM index, molecule-information file, or every
 Cell Ranger output. The filtered gene-by-cell count matrix is sufficient for
 this analysis.
 
-The PBMC4k filtered matrix is approximately 72 MB. Expected download times are:
+The downloaded filtered-matrix archive is approximately 18 MB compressed and
+contains approximately 72 MB before gzip compression. Expected download times
+for the archive are:
 
-- fast connection: under 1 minute;
-- typical connection: 1–5 minutes;
-- slow connection: 5–15 minutes;
+- fast connection: a few seconds;
+- typical connection: under 1 minute;
+- slow connection: a few minutes;
 - extraction: usually a few seconds.
 
 Downloading the complete Cell Ranger output would require substantially more
@@ -80,13 +82,67 @@ time and storage and is unnecessary for this workflow.
 
 Dataset source:
 
-- [4k PBMCs from a Healthy Donor — 10x Genomics](https://www.10xgenomics.com/datasets/4-k-pbm-cs-from-a-healthy-donor-2-standard-1-3-0)
+- [4k PBMCs from a Healthy Donor — 10x Genomics, Cell Ranger 2.1.0](https://www.10xgenomics.com/datasets/4-k-pbm-cs-from-a-healthy-donor-2-standard-2-1-0)
+- [Filtered gene-by-cell matrix archive](https://cf.10xgenomics.com/samples/cell-exp/2.1.0/pbmc4k/pbmc4k_filtered_gene_bc_matrices.tar.gz)
 
 ## Phase 1: process PBMC4k separately
 
 PBMC4k should first receive its own quality-control and preprocessing analysis.
 The general procedure should match PBMC3k, but numerical QC thresholds should
 be selected from PBMC4k's distributions rather than copied blindly.
+
+Phase 1 notebook:
+
+- [`notebooks/01_qc_preprocessing.ipynb`](notebooks/01_qc_preprocessing.ipynb)
+
+PBMC4k exploratory analysis and clustering notebook:
+
+- [`notebooks/02_eda_clustering.ipynb`](notebooks/02_eda_clustering.ipynb)
+
+Predicted-doublet removal and singlet reclustering notebook:
+
+- [`notebooks/03_remove_doublets_recluster.ipynb`](notebooks/03_remove_doublets_recluster.ipynb)
+
+Human-reviewed singlet annotation notebook:
+
+- [`notebooks/04_pbmc4k_singlet_annotation.ipynb`](notebooks/04_pbmc4k_singlet_annotation.ipynb)
+
+Original PBMC3k XGBoost external-donor validation notebook:
+
+- [`notebooks/05_xgboost_external_validation.ipynb`](notebooks/05_xgboost_external_validation.ipynb)
+
+Notebook 02 loads the saved Phase 1 object, reviews post-QC distributions,
+examines highly expressed genes, runs PCA, constructs a 15-nearest-neighbor
+graph from 10 PCs, calculates UMAP, and applies Leiden clustering at resolution
+0.5. These settings match the PBMC3k clustering defaults for consistency.
+The notebook also reuses the exact PBMC marker panel from
+`PBMC3k/notebooks/04_marker_gene_discovery.ipynb`. It reports PBMC4k's observed
+clusters without forcing them to match PBMC3k's cluster count and does not
+assign final cell-type labels automatically. Its final validation section runs
+Scrublet on all 4,340 pre-QC count profiles, transfers the scores to retained
+cells, compares Leiden resolutions 0.2 through 1.0, measures random-seed
+stability and QC association, and records focused evidence for rare clusters
+5, 7, and 10 without deleting cells.
+
+Notebook 03 preserves the Phase 1 and all-cell Phase 2 objects, excludes only
+the individual cells marked as doublets by the pre-QC Scrublet analysis, and
+reruns scaling, PCA, neighbors, UMAP, Leiden clustering, and marker discovery.
+It saves the separate singlet-only result as
+`data/processed/pbmc4k_phase2_singlets_clustered.h5ad`.
+
+Notebook 04 summarizes data-derived markers, reuses the unchanged PBMC3k
+reference-marker panel, calculates marker-program overlap as supporting
+evidence, and tests the cluster-3/cluster-8 distinction by rerunning PCA, UMAP,
+and Leiden after excluding `RPL`, `RPS`, and mitochondrial clustering
+features. It provides one explicitly marked annotation-decision dictionary and
+will not apply or save labels until every cluster has a reviewed cell type,
+confidence level, and marker-evidence note.
+
+Notebook 05 treats every annotated PBMC4k singlet as untouched Donor-2 test
+data for the frozen PBMC3k/Donor-1 XGBoost pipeline. It aligns genes to the
+original model schema, reports shared-class and all-cell behavior separately,
+analyzes the unseen dendritic population, and verifies the original model file
+hash before saving any PBMC4k prediction outputs.
 
 The initial PBMC4k workflow should:
 

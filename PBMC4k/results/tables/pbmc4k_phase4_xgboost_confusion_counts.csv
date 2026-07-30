@@ -1,0 +1,11 @@
+Reviewed PBMC4k label,Activated/transitional T cells,B cells,CD16+ non-classical monocytes,Classical monocytes,Cytotoxic CD8 T cells,IL7R+ memory/helper T cells,NK cells,Naive/resting T cells,Platelets
+Activated/transitional T cells,3,1,0,0,2,131,0,938,0
+B cells,0,592,0,0,0,0,0,0,0
+CD16+ non-classical monocytes,0,1,99,6,0,0,0,0,0
+Classical monocytes,0,2,2,915,0,1,0,0,3
+Cytotoxic CD8 T cells,2,0,0,0,485,86,4,11,0
+IL7R+ memory/helper T cells,0,0,0,0,2,429,0,9,0
+NK cells,0,0,0,0,34,1,142,4,0
+Naive/resting T cells,0,0,0,0,0,20,0,172,0
+Platelets,0,0,0,0,0,0,0,0,0
+Dendritic cells,0,34,0,0,0,0,0,0,0

@@ -1,0 +1,3 @@
+evaluation,accuracy,macro_f1
+PBMC3k internal test,0.8939393939393939,0.8898210140446167
+PBMC4k external shared classes,0.6924578960214791,0.7158127521151938

@@ -1,0 +1,15 @@
+,External-donor validation
+PBMC4k cells evaluated,4131.0
+shared-class PBMC4k cells,4097.0
+unseen-class PBMC4k cells,34.0
+all-cell forced-choice accuracy,0.6867586540789156
+shared-class accuracy,0.6924578960214791
+shared-class balanced accuracy,0.8010349031153421
+shared-class macro F1,0.7158127521151938
+shared-class weighted F1,0.6527871025359622
+shared-class MCC,0.6989673768363108
+mean maximum probability,0.935085496409584
+low-confidence cells,42.0
+low-confidence percent,1.016702977487291
+original PBMC3k internal-test accuracy,0.8939393939393939
+original PBMC3k internal-test macro F1,0.8898210140446167

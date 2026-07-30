@@ -1,0 +1,4 @@
+cluster,cells,predicted_doublets,predicted_doublet_percent,median_doublet_score,minimum_nearby_resolution_cohesion,minimum_nearby_resolution_exclusivity,marker_evidence,preliminary_recommendation
+5,34,0,0.0,0.045359385903698535,0.9705882352941176,1.0,"LILRA4, GZMB, JCHAIN, IRF7, PLD4 (plasmacytoid dendritic program)",retain as a rare pDC candidate if stability and doublet evidence remain acceptable
+7,44,0,0.0,0.08413578546172569,1.0,0.046610169491525424,"FCER1A, CD1C, CLEC10A, CST3, HLA-DRA (conventional dendritic program)",retain as a dendritic candidate only if doublet evidence is acceptable
+10,35,13,37.142857142857146,0.21198156682027655,1.0,0.037076271186440676,LYZ/LST1/S100 genes together with CD3D/NKG7 (conflicting myeloid and lymphoid programs),flag as suspected doublets; do not use for annotation or model evaluation until resolved

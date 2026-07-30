@@ -1,0 +1,11 @@
+,best_reference_program,best_reference_overlap
+0,CD14 monocyte,1.0
+1,CD14 monocyte,1.0
+2,Naive/helper T,0.8571428571428571
+3,Naive/helper T,0.7142857142857143
+4,Cytotoxic T,1.0
+5,Dendritic,0.25
+6,B,1.0
+7,NK,1.0
+8,Naive/helper T,1.0
+9,FCGR3A monocyte,0.6666666666666666
